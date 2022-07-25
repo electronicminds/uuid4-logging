@@ -1,0 +1,14 @@
+{
+  "name": "minds/uuid4-logging",
+  "autoload": {
+    "psr-4": {
+      "Minds\\Monolog\\": "src/Minds/Monolog"
+    }
+  },
+  "version": "1.0.0",
+  "minimum-stability": "stable",
+  "require": {
+    "minds/logging": "*",
+    "ramsey/uuid": "4.*"
+  }
+}
